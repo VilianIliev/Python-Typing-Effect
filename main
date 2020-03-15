@@ -1,4 +1,6 @@
- message = [""This looks like it is being typed!""]
+import time
+import sys
+message = [""This looks like it is being typed!""]
     for typing in message[0]:
         time.sleep(0.05)
         sys.stdout.write(typing)
